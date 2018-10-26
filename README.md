@@ -14,7 +14,7 @@ This extension supports sending push notification through both currently support
 
 # Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aksafan/yii2-fcm-both-api/blob/master/composer.json) for this extension's requirements and dependencies. Read this [composer.json](https://github.com/aaronpk/emoji-detector-php/blob/master/composer.json) for source library requirements.
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aksafan/yii2-fcm-both-api/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
 
@@ -43,7 +43,7 @@ return [
     //....
     'components' => [
         'fcm' => [
-             'class' => 'aksafan\emoji\source\Fcm',
+             'class' => 'aksafan\fcm\components\Fcm',
              'apiVersion' => \aksafan\fcm\requests\StaticRequestFactory::API_V1,
              'apiParams' => [
                  'privateKeyFile' => '/path/to/your/file/privateKeyFile.json',
@@ -62,7 +62,7 @@ return [
     //....
     'components' => [
         'fcm' => [
-             'class' => 'aksafan\emoji\source\Fcm',
+             'class' => 'aksafan\fcm\components\Fcm',
              'apiVersion' => \aksafan\fcm\requests\StaticRequestFactory::LEGACY_API,
              'apiParams' => [
                  'serverKey' => 'aef',
@@ -83,7 +83,7 @@ return [
  * Class WebApplication
  * Include only Web application related components here.
  *
- * @property \aksafan\emoji\source\Fcm $fcm
+ * @property \aksafan\fcm\components\Fcm $fcm
  */
 class WebApplication extends yii\web\Application
 {
