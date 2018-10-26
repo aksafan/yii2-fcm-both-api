@@ -1,6 +1,6 @@
 <?php
 
-namespace aksafan\fcm\responses;
+namespace aksafan\fcm\source\responses;
 
 /**
  * Interface TopicSubscribeResponseInterface.

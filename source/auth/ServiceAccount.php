@@ -1,6 +1,6 @@
 <?php
 
-namespace aksafan\fcm\auth;
+namespace aksafan\fcm\source\auth;
 
 use Firebase\JWT\JWT;
 use Google\Auth\Credentials\ServiceAccountCredentials;

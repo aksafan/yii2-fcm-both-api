@@ -2,8 +2,8 @@
 
 namespace aksafan\fcm\source\helpers;
 
-use aksafan\fcm\builders\apiV1\MessageOptionsBuilder;
-use aksafan\fcm\builders\legacyApi\MessageOptionsBuilder as LegacyMessageOptionsBuilder;
+use aksafan\fcm\source\builders\apiV1\MessageOptionsBuilder;
+use aksafan\fcm\source\builders\legacyApi\MessageOptionsBuilder as LegacyMessageOptionsBuilder;
 use InvalidArgumentException;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace aksafan\fcm\requests;
+namespace aksafan\fcm\source\requests;
 
-use aksafan\fcm\responses\AbstractResponse;
+use aksafan\fcm\source\responses\AbstractResponse;
 
 /**
  * Interface Request.

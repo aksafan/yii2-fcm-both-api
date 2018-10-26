@@ -1,13 +1,13 @@
 <?php
 
-namespace aksafan\fcm\components;
+namespace aksafan\fcm\source\components;
 
-use aksafan\fcm\builders\StaticBuilderFactory;
-use aksafan\fcm\requests\AbstractRequest;
-use aksafan\fcm\requests\GroupManagementRequest;
-use aksafan\fcm\requests\Request;
-use aksafan\fcm\requests\StaticRequestFactory;
-use aksafan\fcm\responses\StaticResponseFactory;
+use aksafan\fcm\source\builders\StaticBuilderFactory;
+use aksafan\fcm\source\requests\AbstractRequest;
+use aksafan\fcm\source\requests\GroupManagementRequest;
+use aksafan\fcm\source\requests\Request;
+use aksafan\fcm\source\requests\StaticRequestFactory;
+use aksafan\fcm\source\responses\StaticResponseFactory;
 use InvalidArgumentException;
 use ReflectionClass;
 use ReflectionProperty;

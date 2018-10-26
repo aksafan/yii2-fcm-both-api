@@ -1,8 +1,8 @@
 <?php
 
-namespace aksafan\fcm\responses;
+namespace aksafan\fcm\source\responses;
 
-use aksafan\fcm\helpers\ErrorsHelper;
+use aksafan\fcm\source\helpers\ErrorsHelper;
 use Psr\Http\Message\ResponseInterface;
 
 /**

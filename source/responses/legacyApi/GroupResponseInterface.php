@@ -1,6 +1,6 @@
 <?php
 
-namespace aksafan\fcm\responses\legacyApi;
+namespace aksafan\fcm\source\responses\legacyApi;
 
 /**
  * Interface GroupResponseInterface.

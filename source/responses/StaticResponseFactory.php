@@ -1,15 +1,15 @@
 <?php
 
-namespace aksafan\fcm\responses;
+namespace aksafan\fcm\source\responses;
 
-use aksafan\fcm\builders\StaticBuilderFactory;
-use aksafan\fcm\requests\AbstractRequest;
-use aksafan\fcm\requests\Request;
-use aksafan\fcm\responses\apiV1\TokenResponse;
-use aksafan\fcm\responses\legacyApi\GroupManagementResponse;
-use aksafan\fcm\responses\legacyApi\TokenResponse as LegacyTokenResponse;
-use aksafan\fcm\responses\legacyApi\TopicResponse as LegacyTopicResponse;
-use aksafan\fcm\responses\legacyApi\GroupResponse as LegacyGroupResponse;
+use aksafan\fcm\source\builders\StaticBuilderFactory;
+use aksafan\fcm\source\requests\AbstractRequest;
+use aksafan\fcm\source\requests\Request;
+use aksafan\fcm\source\responses\apiV1\TokenResponse;
+use aksafan\fcm\source\responses\legacyApi\GroupManagementResponse;
+use aksafan\fcm\source\responses\legacyApi\TokenResponse as LegacyTokenResponse;
+use aksafan\fcm\source\responses\legacyApi\TopicResponse as LegacyTopicResponse;
+use aksafan\fcm\source\responses\legacyApi\GroupResponse as LegacyGroupResponse;
 
 /**
  * Class StaticResponseFactory.

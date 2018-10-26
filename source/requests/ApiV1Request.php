@@ -1,14 +1,14 @@
 <?php
 
-namespace aksafan\fcm\requests;
+namespace aksafan\fcm\source\requests;
 
-use aksafan\fcm\auth\ServiceAccount;
-use aksafan\fcm\builders\apiV1\MessageOptionsBuilder;
-use aksafan\fcm\builders\TopicSubscriptionOptionsBuilder;
-use aksafan\fcm\builders\OptionsBuilder;
-use aksafan\fcm\builders\StaticBuilderFactory;
-use aksafan\fcm\helpers\ErrorsHelper;
-use aksafan\fcm\responses\AbstractResponse;
+use aksafan\fcm\source\auth\ServiceAccount;
+use aksafan\fcm\source\builders\apiV1\MessageOptionsBuilder;
+use aksafan\fcm\source\builders\TopicSubscriptionOptionsBuilder;
+use aksafan\fcm\source\builders\OptionsBuilder;
+use aksafan\fcm\source\builders\StaticBuilderFactory;
+use aksafan\fcm\source\helpers\ErrorsHelper;
+use aksafan\fcm\source\responses\AbstractResponse;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use InvalidArgumentException;

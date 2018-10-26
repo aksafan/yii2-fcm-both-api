@@ -1,9 +1,9 @@
 <?php
 
-namespace aksafan\fcm\responses\legacyApi;
+namespace aksafan\fcm\source\responses\legacyApi;
 
-use aksafan\fcm\helpers\ErrorsHelper;
-use aksafan\fcm\responses\AbstractResponse;
+use aksafan\fcm\source\helpers\ErrorsHelper;
+use aksafan\fcm\source\responses\AbstractResponse;
 use Psr\Http\Message\ResponseInterface;
 
 /**

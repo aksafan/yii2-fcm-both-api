@@ -1,6 +1,6 @@
 <?php
 
-namespace aksafan\fcm\requests;
+namespace aksafan\fcm\source\requests;
 
 /**
  * Interface GroupManagementRequest.

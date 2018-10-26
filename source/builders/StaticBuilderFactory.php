@@ -1,12 +1,12 @@
 <?php
 
-namespace aksafan\fcm\builders;
+namespace aksafan\fcm\source\builders;
 
-use aksafan\fcm\builders\apiV1\MessageOptionsBuilder;
-use aksafan\fcm\builders\legacyApi\MessageOptionsBuilder as LegacyMessageOptionsBuilder;
-use aksafan\fcm\requests\ApiV1Request;
-use aksafan\fcm\requests\LegacyApiRequest;
-use aksafan\fcm\requests\Request;
+use aksafan\fcm\source\builders\apiV1\MessageOptionsBuilder;
+use aksafan\fcm\source\builders\legacyApi\MessageOptionsBuilder as LegacyMessageOptionsBuilder;
+use aksafan\fcm\source\requests\ApiV1Request;
+use aksafan\fcm\source\requests\LegacyApiRequest;
+use aksafan\fcm\source\requests\Request;
 use InvalidArgumentException;
 
 /**

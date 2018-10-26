@@ -1,9 +1,9 @@
 <?php
 
-namespace aksafan\fcm\responses\apiV1;
+namespace aksafan\fcm\source\responses\apiV1;
 
-use aksafan\fcm\builders\apiV1\MessageOptionsBuilder;
-use aksafan\fcm\helpers\ErrorsHelper;
+use aksafan\fcm\source\builders\apiV1\MessageOptionsBuilder;
+use aksafan\fcm\source\helpers\ErrorsHelper;
 
 /**
  * Class TokenResponse.
