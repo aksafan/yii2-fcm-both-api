@@ -1,10 +1,10 @@
-# yii2-fcm
+# yii2-fcm-both-api
 Yii2 Extension for sending push notification with both [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM) HTTP Server Protocols (APIs).
 
 
-[![Latest Stable Version](https://poser.pugx.org/aksafan/yii2-fcm/v/stable)](https://packagist.org/packages/aksafan/yii2-fcm)
-[![Total Downloads](https://poser.pugx.org/aksafan/yii2-fcm/downloads)](https://packagist.org/packages/aksafan/yii2-fcm)
-[![Build Status](https://travis-ci.org/aksafan/yii2-fcm.svg?branch=master)](https://travis-ci.org/aksafan/yii2-fcm)
+[![Latest Stable Version](https://poser.pugx.org/aksafan/yii2-fcm-both-api/v/stable)](https://packagist.org/packages/aksafan/yii2-fcm-both-api)
+[![Total Downloads](https://poser.pugx.org/aksafan/yii2-fcm-both-api/downloads)](https://packagist.org/packages/aksafan/yii2-fcm-both-api)
+[![Build Status](https://travis-ci.org/aksafan/yii2-fcm-both-api.svg?branch=master)](https://travis-ci.org/aksafan/yii2-fcm-both-api)
 
 This extension supports sending push notification through both currently supported FCM API versions:
 - [HTTP v1 API](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages)
@@ -14,18 +14,18 @@ This extension supports sending push notification through both currently support
 
 # Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aksafan/yii2-fcm/blob/master/composer.json) for this extension's requirements and dependencies. Read this [composer.json](https://github.com/aaronpk/emoji-detector-php/blob/master/composer.json) for source library requirements.
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/aksafan/yii2-fcm-both-api/blob/master/composer.json) for this extension's requirements and dependencies. Read this [composer.json](https://github.com/aaronpk/emoji-detector-php/blob/master/composer.json) for source library requirements.
 
 To install, either run
 
 ```
-$ php composer.phar require aksafan/yii2-fcm
+$ php composer.phar require aksafan/yii2-fcm-both-api
 ```
 
 or add
 
 ```
-"aksafan/yii2-fcm": "*"
+"aksafan/yii2-fcm-both-api": "*"
 ```
 
 to the `require` section of your `composer.json` file.
