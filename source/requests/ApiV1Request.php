@@ -42,7 +42,7 @@ class ApiV1Request extends AbstractRequest implements Request
      */
     public function __construct(array $apiParams, string $reason)
     {
-        $this->serviceAccount = new ServiceAccount($apiParams['privateKeyFile']);
+        $this->serviceAccount = new ServiceAccount($apiParams['privateKey']);
         $this->setHttpClient($this->serviceAccount->authorize(self::FCM_AUTH_URL));
         $this->setReason($reason);
         $this->optionBuilder = StaticBuilderFactory::build($reason, $this);

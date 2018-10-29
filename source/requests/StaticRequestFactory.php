@@ -37,7 +37,7 @@ final class StaticRequestFactory
         }
 
         if (static::API_V1 === $apiVersion) {
-            if (isset($apiParams['privateKeyFile'])) {
+            if (isset($apiParams['privateKey'])) {
                 return new ApiV1Request($apiParams, $reason);
             }
 

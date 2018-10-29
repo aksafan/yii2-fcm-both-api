@@ -46,14 +46,15 @@ return [
              'class' => 'aksafan\fcm\source\components\Fcm',
              'apiVersion' => \aksafan\fcm\source\requests\StaticRequestFactory::API_V1,
              'apiParams' => [
-                 'privateKeyFile' => '/path/to/your/file/privateKeyFile.json',
+                 'privateKey' => '/path/to/your/file/privateKeyFile.json',
              ],
         ],
     ]
 ];
 ```
 
-> `privateKeyFile` - used to authenticate the service account and authorize it to access Firebase services. You must [generate](https://firebase.google.com/docs/cloud-messaging/auth-server#authorize_http_v1_send_requests) a private key file in JSON format and use this key to retrieve a short-lived OAuth 2.0 token.
+> `privateKey` - used to authenticate the service account and authorize it to access Firebase services. You must [generate](https://firebase.google.com/docs/cloud-messaging/auth-server#authorize_http_v1_send_requests) a private key file in JSON format and use this key to retrieve a short-lived OAuth 2.0 token.
+`privateKey` can be set with json-file `'/path/to/your/file/privateKeyFile.json'` or simply with json-string `'{"type":"service_account"}'`
 
 For Legacy API:
 
