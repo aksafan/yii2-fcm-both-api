@@ -30,11 +30,11 @@ class ServiceAccount
     {
         if (\is_string($authConfig)) {
             if (file_exists($authConfig)) {
-                if (!\is_array($authConfig = json_decode(file_get_contents($authConfig), true))) {
-                    throw new LogicException('invalid json for FCM auth config');
+                if (! \is_array($authConfig = json_decode(file_get_contents($authConfig), true))) {
+                    throw new LogicException('Invalid json for FCM auth config');
                 }
-            } elseif (!\is_array($authConfig = json_decode($authConfig, true))) {
-                throw new InvalidArgumentException('FCM auth config file not found');
+            } elseif (! \is_array($authConfig = json_decode($authConfig, true))) {
+                throw new InvalidArgumentException('FCM auth config not found');
             }
         }
 
