@@ -97,6 +97,31 @@ class WebApplication extends yii\web\Application
 Yii::$app->fcm
 ```
 
+##### In order to use both HTTP v1 and legacy API at the same time, you need to register them separately:
+
+```php
+return [
+    //....
+    'components' => [
+        'fcmApiV1' => [
+            'class' => 'aksafan\fcm\source\components\Fcm',
+            'apiVersion' => \aksafan\fcm\source\requests\StaticRequestFactory::API_V1,
+            'apiParams' => [
+                'privateKey' => '/path/to/your/file/privateKeyFile.json',
+            ],
+        ],
+        'fcmLegacyApi' => [
+            'class' => 'aksafan\fcm\source\components\Fcm',
+            'apiVersion' => \aksafan\fcm\source\requests\StaticRequestFactory::LEGACY_API,
+            'apiParams' => [
+                'serverKey' => 'aef',
+                'senderId' => 'fwef',
+            ],
+        ],
+    ]
+];
+```
+Now you can use `Yii::$app->fcmApiV1` when need APIV1 and `Yii::$app->fcmLegacyApi` for legacy one.
 
 Basic Usage
 -----------
