@@ -28,6 +28,12 @@
     "require-dev": {
         "phpunit/phpunit" : "4.7.*"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "aksafan\\fcm\\": ""
